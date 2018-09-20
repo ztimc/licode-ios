@@ -4,4 +4,7 @@
    <FileRef
       location = "group:licode.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LicodeExample/LicodeExample.xcodeproj">
+   </FileRef>
 </Workspace>

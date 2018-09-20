@@ -1,15 +1,15 @@
 //
-//  licodeTests.swift
-//  licodeTests
+//  LicodeExampleTests.swift
+//  LicodeExampleTests
 //
-//  Created by ztimc on 2018/9/19.
+//  Created by ztimc on 2018/9/20.
 //  Copyright © 2018年 ztimc. All rights reserved.
 //
 
 import XCTest
-@testable import licode
+import licode
 
-class licodeTests: XCTestCase {
+class LicodeExampleTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -20,7 +20,8 @@ class licodeTests: XCTestCase {
     }
 
     func testExample() {
-    
+        
+        
     }
 
     func testPerformanceExample() {

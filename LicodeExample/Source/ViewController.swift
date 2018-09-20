@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import licode
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let channel = SignalingChannel()
+        channel.connectByToken(encodedToken: "eyJ0b2tlbklkIjoiNWJhMzk1MzEwZjg0OTA1OTAxMWJmZWQ1IiwiaG9zdCI6IndlYnJ0Yy5tdWd1b3ZyLmNuOjgwODAiLCJzZWN1cmUiOnRydWUsInNpZ25hdHVyZSI6Ill6WTNNemRqWmpjd01HWTJaVEU1T1RJMFpUVTBaalZoTm1JNVlURTVPREEzWWpOaE5XUTFNQT09In0=")
     }
+    
+    
 
 
 }
